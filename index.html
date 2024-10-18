@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="calculator-body">
+                <!--screen goes here-->
+                <div class="screen">
+                    <span class="screen-text text">42069</span>
+                </div>
+                <!--buttons go here-->
+                <div class="buttons">
+                    <!--use this website for keys : https://www.toptal.com/developers/keycode-->
+                    <!--num is number button and funct is function button-->
+                    <button class="button reset-full" data-key="27">C</button> <!--esc-->
+                    <button class="button funct" data-key="54">^</button> <!--^-->
+                    <button class="button reset-once" data-key="8">BACK</button> <!--backspace-->
+                    <button class="button funct" data-key="53">%</button> <!--%-->
+
+                    <button class="button num" data-key="49">1</button>
+                    <button class="button num" data-key="50">2</button>
+                    <button class="button num" data-key="51">3</button>
+                    <button class="button funct" data-key="191">÷</button> <!--/-->
+
+                    <button class="button num" data-key="52">4</button>
+                    <button class="button num" data-key="53">5</button>
+                    <button class="button num" data-key="54">6</button>
+                    <button class="button funct" data-key="88">x</button> <!--x-->
+
+                    <button class="button num" data-key="55">7</button>
+                    <button class="button num" data-key="56">8</button>
+                    <button class="button num" data-key="57">9</button>
+                    <button class="button funct" data-key="173">-</button> <!-- - -->
+
+
+                    <button class="button num" data-key="48">0</button>
+                    <button class="button decimal" data-key="190">.</button> <!--.-->
+                    <button class="button funct" data-key="107">+</button> <!--+-->
+                    <button class="button equals" data-key="61">=</button> <!--=-->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="attribute">
+        <p class="text">Made by Aigle | Check out my <a href="https://github.com/aigle-levant">Github</a></span>
+    </section>
+    <script src="script.js" defer></script>
+</body>
+</html>
